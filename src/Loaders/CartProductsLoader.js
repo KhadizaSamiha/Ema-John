@@ -17,7 +17,6 @@ const cartProductsLoader = async()=>{
     }
     savedCart.push(addedProduct);
    }
-   console.log(savedCart);
    return savedCart;
 }
 export default cartProductsLoader;
