@@ -7,6 +7,7 @@ import { removeFromDb } from '../../../Utilities/fakedb';
 
 const Orders = () => {
     const savedCart = useLoaderData();
+    console.log(savedCart);
     const [cart, setCart] = useState(savedCart);
     
    const handleRemoveFromCart = (id) =>{
